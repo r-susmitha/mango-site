@@ -1,2 +1,3 @@
-# mango-site
-Static Website regarding Mango
+# Mango Static Site
+
+### This is a static site for Mangoes.
