@@ -1,198 +1,81 @@
-body {
-    width:900px;
-    height: 900px;
-    
-}
-.title h1 {
-    position: absolute;
-    margin-left: 30px;
-    font-family:Montserrat,sans-serif;
-    font-size: 22px; 
-    color: #FFA500;
-     
-}
-.title h3 {
-    position: relative;
-    top: 50px;
-    margin-left: 50px;
-    color:#333333;
-    font-size: 16px;
-    font-family:poppins,sans-serif ;
- 
-}
-.nav-bar  {
+/* Header Section */
+header {
     display: flex;
-    justify-content: center;
- 
-  left: 700px;
-  position: relative;
-
+    justify-content: space-between;
+    position: relative;
+    padding: 0px 10px;
+    margin: 20px 100px; 
 }
-.nav-bar ul  {
-  list-style-type: none;
-  padding:0;
-  margin:0;
-  
- 
- }
- .nav-bar li{
-    display: inline-block;
-    margin-left: 60px;
-    
- }
- .nav-bar button {
-    position: relative;
-    left: 500px;
-    width: 150px;
-    height:50px;
-    background-color: orange;
-    border: 2px solid orange;
-    border-radius: 25px;
-    color: white;
-    font-size: 18px;
- }
 
- a {
-    display: inline-block;
-    position: relative;
-    color: gray;
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo p {
+    margin: 5px 0;
+}
+
+.logo #title {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(248,185,60);
+    font-weight: 700;
+}
+.logo #phrase{
+    font-size: 18px;
+}
+
+.nav {
+    position: inherit;
+    top: 30px; 
+}
+
+.nav a{
+    position: inherit;
+    margin: 0 30px;
     text-decoration: none;
-  }
-  a::after {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.nav a::after{
     content: '';
     position: absolute;
+    background-color: black;
+    width: 0;
+    height: 2px;
+    left: -5px;
+    padding: 0 5px;
+    bottom: -5px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover::after {
+    visibility: visible;
     width: 100%;
-    transform: scaleX(0);
-    border-radius: 5px;
-    height: 0.05em;
-    bottom: 0;
-    left: 0;
-    background: currentcolor;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-   
-    
-  }
-  a:hover {
-    color: black;
-  }
-  a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-    cursor:black pointer;
-  }
-  .nav-bar button {
-    position: relative;
-   right: -500px;
-    float: right;
-    width: 100px;
-    height: 30px;
-    border-radius: 20px 20px 20px 20px;
-    background-color: orange;
-    color: white;
-    border:2px solid rgb(238, 178, 66);
 }
-.container {
-    width:214% ;
-    height: 85%;
-    background-color: rgb(242, 215, 162);
-    position: relative;
-    left: 30px;
-    
-    top: 70px;
-    border: 20px solid rgb(235, 166, 37);
-    border-radius: 20px 20px 20px 20px;
-}
-#top {
-    width: 30%;
-   
-    position: relative;
-    display: inline-block;
-    left: 1000px;
-    top:250px;
-    rotate: 280deg;
-    filter:blur(200px);
-    z-index: 2;
-}
-#bottom {
-    width: 30%;
-    position: relative;
-    display: inline-block;
-    left: 400px;
-    top:250px;
-    rotate: 280deg;
-    z-index: 1;
-    filter:blur(1px);
 
+.contact-btn{
+    padding-right: 65px;
 }
-.second-content  h1 {
+
+.contact-btn button{
     position: relative;
-    top:-630px;
-    left: 100px;
-    font-size: 70px;
-    font-family: Georgia,sans-serif;
-    font-weight: lighter;
-    color: rgb(77, 2, 2);
-}
-.second-content h3 {
-    position: relative;
-    top:-630px;
-    left: 100px;
-    font-size: 25px;
-    font-family: poppins;
-    font-weight:lighter;
-    color: gray;
-}
-button {
-    position: relative;
-    top: -600px;
-    left: 100px;
-    top: -600px;
-    width: 200px;
-    height:50px;
+    top: 20px;
+    width: 200%;
+    height: 50%;
     border-radius: 25px;
-    background-color: red;
-    border: 2px solid red;
-    color: white;
-    font-size: 20px;
-    filter: blur(1px);
-   
-    
-}
-button:hover {
-    background-color:red;
-    box-shadow: 0px 10px 15px red;
-    color: #fff;
-    transform: translateY(-7px);
-}
-.emojis {
-    display: inline;
-    align-items: center;
-    font-size: 24px; 
-    position: relative;
-    top: -1100px;
-    left: 1600px;
-   
-}
-.emoji-item span {
-    width: 30px;
-    height:30px;
-    background-color: #fff;
-    border-radius: 50%;
-
-    position: relative;
-    display: block;
-}
-.emoji-item p {
-    position: relative;
-    left: 30px;
-    top: -50px;
-}
-.emojis::before {
-   
-    margin-right: 10px; 
+    background-color: orange;
+    border:2px solid orange;
+    color:white;
 }
 
-.text {
-    font-size: 18px; 
-}
+/* Main */
