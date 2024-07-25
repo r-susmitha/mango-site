@@ -1,81 +1,95 @@
-/* Header Section */
-header {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding: 0px 10px;
-    margin: 20px 100px; 
+
+@media (max-width: 768px) {
+    
 }
 
-.logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    Header Section
+     header {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 0px 10px;
+        margin: 20px 100px; 
+    }
+    
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo p {
+       margin: 10px 0;
+    }
+    
+    .logo #title {
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(248,185,60);
+        font-weight: 700;
+        top: 20px;
+        left: 80px;
+        position: relative;
+    }
+    .logo #phrase{
+        font-size: 18px;
+        left: 100px;
+        position: relative;
+    }
+    
+    .nav {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        top: -40px;     
+    }
+    
+    .nav a{
+        position: inherit;
+        margin: 0 30px;
+        text-decoration: none;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .nav a:hover {
+        color: black;
+    }
+    
+    .nav a::after{
+        content: '';
+        position: absolute;
+        background-color: black;
+        width: 0;
+        height: 2px;
+        left: -5px;
+        padding: 0 5px;
+        bottom: -5px;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .nav a:hover::after {
+        visibility: visible;
+        width: 100%;
+    }
+    
+    .contact-btn{
+        padding-right: 85px;
+       
+    }
+    
+    .contact-btn button{
+        position: relative;
+        top: -80px;
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: orange;
+        border:2px solid orange;
+        color:white;
+        float: right;
+    } 
+    
 
-.logo p {
-    margin: 5px 0;
-}
 
-.logo #title {
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(248,185,60);
-    font-weight: 700;
-}
-.logo #phrase{
-    font-size: 18px;
-}
-
-.nav {
-    position: inherit;
-    top: 30px; 
-}
-
-.nav a{
-    position: inherit;
-    margin: 0 30px;
-    text-decoration: none;
-    color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.nav a:hover {
-    color: black;
-}
-
-.nav a::after{
-    content: '';
-    position: absolute;
-    background-color: black;
-    width: 0;
-    height: 2px;
-    left: -5px;
-    padding: 0 5px;
-    bottom: -5px;
-    visibility: hidden;
-    transition: all 0.3s ease-in-out;
-}
-
-.nav a:hover::after {
-    visibility: visible;
-    width: 100%;
-}
-
-.contact-btn{
-    padding-right: 65px;
-}
-
-.contact-btn button{
-    position: relative;
-    top: 20px;
-    width: 200%;
-    height: 50%;
-    border-radius: 25px;
-    background-color: orange;
-    border:2px solid orange;
-    color:white;
-}
-
-/* Main */
