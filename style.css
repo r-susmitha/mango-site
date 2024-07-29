@@ -79,3 +79,153 @@ header {
 }
 
 /* Main */
+.Container {
+    width: 81%;
+    height: 480px;
+    background-color: rgb(250,225,159);
+    position: relative;
+    margin: 110px 110px;
+    top:-55px;
+    border-radius: 35px;
+    border: 25px solid rgb(247,181,50);
+}
+.content h1 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: rgb(58,10,5);
+}
+.content h2 {
+    position: relative;
+    top:-30px;
+    left: 25px;
+    color: rgb(150,134,89);
+    font-family: serif;
+    font-weight: 300;
+}
+.btn {
+    position: absolute;
+    top: 80%;
+    left: 30px;
+    background-color: rgb(237,70,55);
+    color: rgb(247,202,201);
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    padding: 15px;
+    min-height: 50px;
+    min-width: 150px;
+    font-size: 20px;
+    font-family: inherit;
+    filter: blur(1px);
+}
+.btn:hover {
+    background-color: green;
+    transition: 0.5s;
+}
+.img-1 {
+    position: relative;
+    top: -350px;
+    left: 400px;
+    filter: blur(20px);
+}
+.img-1 img {
+    width: 500px;
+    height: 500px;
+}
+.img-2 {
+    position: relative;
+    top: -850px;
+    left: 400px;
+}
+.img-2 img {
+    width: 500px;
+    height: 500px;
+}
+.emoji-1 {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(247,181,50);
+    border-radius: 50%;
+    position: relative;
+    top: -1380px;
+    left: 1000px;
+}
+.emoji-1 .image-1 img {
+    width: 40px;
+    height: 40px;
+    left:2px;
+    position: relative;
+}
+.emoji-1 .image-1 h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 5px;
+    width:200px;
+    top: -60px;
+    left: 50px;
+    position: relative;
+    font-weight: 100;
+}
+.emoji-2 {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(247,181,50);
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    left: 5px;
+}
+.emoji-2 .image-2  img{
+   width: 30px;
+   height: 30px;
+   top:5px;
+   left: 8px;
+   position: relative;
+}
+.emoji-2 .image-2 h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 5px;
+    width:200px;
+    top: -50px;
+    left: 50px;
+    position: relative;
+    font-weight: 100;
+}
+.emoji-3 {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(247,181,50);
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 3px;
+}
+.emoji {
+    font-size: 30px; 
+    color: #FF4500;   
+    margin: 10px; 
+}
+.emoji-3 .emoji {
+    width: 15px;
+    height: 55px;
+    top: 10px;
+    position: relative;
+}
+.emoji-3  h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 5px;
+    width:200px;
+    top: -70px;
+    left: 45px;
+    position: relative;
+    font-weight: 100;
+}
+
