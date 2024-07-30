@@ -79,3 +79,69 @@ header {
 }
 
 /* Main */
+.flavour {
+    position: absolute;
+    width: 99%;
+    height: 530px;
+    background-image: url("resources/images/flavor\ wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img-9 img {
+    width: 550px;
+    height: 350px;
+    position: relative;
+    top: 150px;
+    left: 950px;
+    border-radius: 50%;
+    filter: blur(30px);
+}
+.img-5v img{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -250px;
+    left: 950px;
+    border-radius: 50%;
+}
+.img-5v h1 {
+    position: relative;
+    top: -650px;
+    left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: black;
+}
+.img-5v p {
+    position: relative;
+    top: -630px;
+    left: 100px;
+    font-family: inherit;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+}
+.btn-5 button {
+    position: relative;
+    top: -620px;
+    left: 100px;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: red;
+    border: none;
+    border: 30px 30px 30px 30px;
+    padding: 10px;
+    min-height: 30px;
+    min-height: 10px;
+    font-family: inherit;
+    font-size: 18px;
+    color: white;
+   
+}
+.btn-5 button:hover {
+    background-color: green;
+    border: 2px solid green;
+    transition: 0.5s;
+}
