@@ -148,7 +148,7 @@ header {
 
 .subscribe {
     position: absolute;
-    top: -30px;
+    top: 30px;
     left: 950px;
 }
 .subscribe input {
