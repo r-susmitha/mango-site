@@ -79,3 +79,67 @@ header {
 }
 
 /* Main */
+.guideline {
+    position: absolute;
+    width: 99%;
+    height: 580px;
+    background-image: url("resources/images/juice\ wallpaper.png");
+    background-position: center;
+    background-size: cover;
+}
+.title h1 {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(58,10,5);
+}
+.title p {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: 18px;
+
+}
+.btn-11 button {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    border: 30px 30px 30px 30px;
+    padding: 15px;
+    min-height: 50px;
+    min-width: 150px;
+    font-size: 18px;
+    font-family: inherit;
+    filter: blur(0.7px);
+}
+.btn-11 button:hover {
+    background-color: green;
+    transition: 0.10s;
+}
+.image-12 img {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    top: -500px;
+    left: 630px;
+    border-radius: 50%;
+    filter: blur(2px);
+    rotate: 20deg;
+}
+.image-12v img {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    top: -1080px;
+    left: 630px;
+    border-radius: 50%;
+  
+}
