@@ -88,7 +88,7 @@ header {
     top:-55px;
     border-radius: 55px;
     border: 25px solid rgb(243, 159, 3);
-    background-image: url("resources/images/fruits\ wallpaper\ .png");
+    background-image: url("resources/images/home\ section\ wallpaper.png");
     background-position: center;
     background-size: cover;
 }
@@ -172,6 +172,7 @@ header {
     left: 50px;
     position: relative;
     font-weight: 100;
+    color: white;
 }
 .emoji-2 {
     width: 45px;
@@ -199,6 +200,7 @@ header {
     left: 50px;
     position: relative;
     font-weight: 100;
+    color: white;
 }
 .emoji-3 {
     width: 45px;
@@ -230,5 +232,6 @@ header {
     left: 45px;
     position: relative;
     font-weight: 100;
+    color: white;
 }
 
