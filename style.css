@@ -81,11 +81,13 @@ header {
 /* Main */
 .footer {
     position: absolute;
-    width: 99%;
+    width: 97.5%;
     height: 500px;
     background-image: url("resources/images/footer\ wallpaper.png");
     background-position: center;
     background-size: cover;
+    border: 10px solid black;
+    border-radius: 50px;
 }
 .title h1 {
     position: relative;
@@ -116,7 +118,7 @@ header {
 }
 .social-icons a {
     text-decoration: none;
-    color: rgb(107,72,18);
+    color: rgb(117,77,17);
     padding: 10px;
     border-radius: 50%;
     font-size: 24px;
@@ -125,7 +127,7 @@ header {
     position: relative;
     top:70px;
     font-size: 15px;
-    color: rgb(107,72,18);
+    color: rgb(117,77,17);
 }
 .links {
     position: absolute;
@@ -142,8 +144,9 @@ header {
 }
 .links ul li a{
     text-decoration: none;
-    color: rgb(107,72,18);
+    color: rgb(117,77,17);
     padding: 20px;
+    font-size: 18px;
 }
 
 .subscribe {
@@ -183,6 +186,7 @@ header {
 }
 .links-1 ul li a{
     text-decoration: none;
-    color: rgb(107,72,18);
+    color: rgb(117,77,17);
     padding: 20px;
+    font-size: 18px;
 }
