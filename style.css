@@ -83,16 +83,16 @@ header {
     position: absolute;
     width: 99%;
     height: 530px;
-    background-image: url("resources/images/flavor\ wallpaper.jpg");
+    background-image: url("resources/images/flavor\ wallpaper-1.png");
     background-position: center;
     background-size: cover;
 }
 .img-9 img {
-    width: 550px;
+    width: 350px;
     height: 350px;
     position: relative;
-    top: 150px;
-    left: 950px;
+    top: 120px;
+    left: 1050px;
     border-radius: 50%;
     filter: blur(30px);
 }
@@ -101,7 +101,7 @@ header {
     height: 350px;
     position: relative;
     top: -250px;
-    left: 950px;
+    left: 1050px;
     border-radius: 50%;
 }
 .img-5v h1 {
@@ -111,7 +111,7 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 50px;
-    color: black;
+    color: rgb(58,10,5);
 }
 .img-5v p {
     position: relative;
@@ -119,7 +119,7 @@ header {
     left: 100px;
     font-family: inherit;
     font-size: 18px;
-    color: white;
+    color: gray;
     font-weight: 200;
 }
 .btn-5 button {
@@ -133,10 +133,10 @@ header {
     border: none;
     border: 30px 30px 30px 30px;
     padding: 10px;
-    min-height: 30px;
-    min-height: 10px;
+    min-height: 50px;
+    min-width: 150px;
     font-family: inherit;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
    
 }
