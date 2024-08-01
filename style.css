@@ -163,7 +163,7 @@ header {
     min-width: 250px;
     border: 1px solid rgb(58,10,5);
     border-radius: 20px;
-    background-color: rgb(248,214,193);
+    background-color: black;
 }
 .subscribe p {
     position: relative;
