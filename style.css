@@ -81,11 +81,13 @@ header {
 /* Main */
 .guideline {
     position: absolute;
-    width: 99%;
+    width: 97.5%;
     height: 580px;
     background-image: url("resources/images/guidline\ wallpaper.png");
     background-position: center;
     background-size: cover;
+    border: 10px solid black;
+    border-radius: 50px;
 }
 .title h1 {
     position: relative;
