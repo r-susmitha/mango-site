@@ -83,7 +83,9 @@ header {
     position: absolute;
     width: 99%;
     height: 850px;
-    background-image: url("resources/images/nutrition\ wallpaper\ .jpg");
+    background-image: url("resources/images/nutition\ wallpaper.png");
+    background-position: center;
+    background-size: cover;
 }
 .title h1 {
     position: relative;
