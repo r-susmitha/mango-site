@@ -81,11 +81,13 @@ header {
 /* Main */
 .flavour {
     position: absolute;
-    width: 99%;
+    width: 97.5%;
     height: 530px;
     background-image: url("resources/images/flavor\ wallpaper-1.png");
     background-position: center;
     background-size: cover;
+    border: 10px solid black;
+    border-radius: 50px;;
 }
 .img-9 img {
     width: 350px;
