@@ -79,3 +79,84 @@ header {
 }
 
 /* Main */
+.container {
+    width: 80%;
+    height: 480px;
+    background-image: url("resources/images/home\ section\ wallpaper.png");
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border: 25px solid orange;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.title h1 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 500;
+    color: rgb(58,10,5);
+}
+.title p {
+    position: relative;
+    color: rgb(145,129,86);
+    left: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: inherit;
+}
+.btn-1 button {
+    position: absolute;
+    top:380px;
+    left: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    min-height: 50px;
+    min-width: 150px;
+    font-size: 20px;
+    font-family: inherit;
+}
+.btn-1 button:hover{
+    background-color: green;
+}
+.image-1 {
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+.image-1 img {
+    width: 400px;
+    height: 400px;
+    filter: blur(10px);
+}
+.img-1v{
+    position: absolute;
+    top: 140px;
+    left: 390px; 
+}
+.img-1v img {
+    width: 400px;
+    height: 400px;
+}
+.emoji-1 {
+    position: absolute;
+    top: 50px;
+    left:950px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+}
+.emoji-1 p {
+    position: relative;
+    top:-4010px;
+    left: 60px;
+    color: red;
+    display: flex;
+    flex-direction: row;
+}
