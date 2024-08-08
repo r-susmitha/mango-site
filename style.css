@@ -1,20 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    
-
 }
 html,body {
     margin: 0;
     padding: 0;
-   
+    overflow-x: hidden;
+    
 }
 header {
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding: 0px 10px;
-    margin: 30px 30px;
+    margin: 20px 20px;
+    background-color: white;
    
 }
 
@@ -93,9 +92,10 @@ header {
     width: 94;
     height: 500px;
     background-color: rgb(250,225,159);
-    margin: 40px 40px;
+    margin: 30px 30px;
     border-radius: 30px;
-    border: 25px solid rgb(247,181,50)
+    border: 25px solid rgb(247,181,50);
+   
 }
 .home-left-title {
     position: relative;
@@ -475,6 +475,7 @@ header {
     position: relative;
     top: -50px;
     left: 1100px;
+
 }
 .subscribe h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -487,6 +488,7 @@ header {
     height: 50px;
     border-radius: 10px;
     background-color: rgb(250,225,159);
+    top: 20px;
    
 }
 .subscribe input {
@@ -496,6 +498,7 @@ header {
     position: relative;
     display: inline-block;
     padding: 15px;
+    top: 20px;
 }
 
 .subscribe-right-arrow::after {
@@ -503,4 +506,5 @@ header {
     position: absolute;
     right: 60px;
     font-size: 20px;
+  
 } 
