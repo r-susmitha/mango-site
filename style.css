@@ -220,9 +220,11 @@ header {
     position: relative;
     top: -80px;
     left:-80px;
-    rotate: -30deg;
+    rotate: -40deg;
     background-position: center;
     background-size: cover;
+    border-radius: 50%;
+    object-fit: contain;
 }
 .review {
     position: relative;
@@ -313,6 +315,7 @@ header {
     left: 750px;
     width: 500px;
     height: 500px;
+    border-radius: 50%;
 }
 .nutrition {
     width: 100vw;
@@ -416,6 +419,7 @@ header {
     position: relative;
     top: -400px;
     left: 730px;
+    border-radius: 50%;
 }
 .footer {
     width: 100vw;
